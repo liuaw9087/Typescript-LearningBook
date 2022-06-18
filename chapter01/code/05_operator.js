@@ -15,7 +15,6 @@
 // console.log("num1 自增运算: "+num1)
 // num2--
 // console.log("num2 自减运算: "+num2)
-/* var num = -2;
+var num = -2;
 var result = num > 0 ? "大于 0" : "小于 0，或等于 0";
 console.log(result);
- */
