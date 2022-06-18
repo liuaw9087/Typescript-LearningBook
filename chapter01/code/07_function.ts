@@ -12,7 +12,7 @@ caller() */
     return "Hello World";
 }
 function caller() {
-    var msg = greet(); // 调用 greet() 函数 
+    var msg = greet(); // 调用 greet() 函数
     console.log(msg);
 }
 // 调用函数
@@ -101,3 +101,13 @@ foo(100) */
 }
 func(12)
 func("Tom") */
+// 函数重构
+/* function disp(s1: string): void;
+function disp(n1: number, s1: string): void;
+
+function disp(x: any, y?: any): void {
+    console.log(x);
+    console.log(y);
+}
+disp("abc")
+disp(1, "xyz"); */
